@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import{faSearch} from '@fontawesome/free-solid-svg-icons';
+import { library} from '@fontawesome/fontawesome-svg-core'
+
+library.add(faSearch)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

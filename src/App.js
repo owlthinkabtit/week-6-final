@@ -1,11 +1,13 @@
 import React from "react";
-import MoviePix from './assets/MoviePix.png';
 import Landing from "./components/Landing";
+import Nav from "./components/Nav"
+
 
 
 function App() {
   return (
     <>
+      <Nav />
       <Landing />
     </>
   );
