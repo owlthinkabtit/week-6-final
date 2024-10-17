@@ -89,20 +89,52 @@ a {
   overflow: hidden;
 }
 
-.search {
-  width: 100%;
-  max-width: 800px; 
-  height: 60px; 
-  font-size: 20px; 
-  padding-left: 20px; 
-}
-
 .movie-img {
   max-width: max-content;
   height: 50vh;
   position: relative;
   align-items: center;
 }
+
+.search--landing {
+  color: rgb(6, 46, 163);
+  width: 100%;
+  max-width: 800px;
+  height: 60px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.search--wrapper {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  color: rgb(6, 46, 163);
+  z-index: 10000;
+  padding: 0 20px 0 8px;
+  font-size: 32px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+}
+
+.fa-search {
+  color: rgb(6, 46, 163);
+  width: 100%;
+  align-items: center;
+  font-size: inherit;
+}
+
+.fa-search:hover {
+  background-color: white;
+  color: rgb(255, 98, 0);
+  transition: all 0.45s ease;
+}
+
 
 /* NAVIGATION */
 

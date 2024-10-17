@@ -1,14 +1,14 @@
 import React from "react";
-import { FontAwesomeIcon} from "@fontawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Search = () => {
   return (
-    <div class="input-wrap">
+    <div class="input-wrapper">
       <form id="form">
-        <input type="text" placeholder="Search..." id="search" class="search" />
+        <input type="text" placeholder="Search..." id="search" class="search--landing" />
       </form>
-      <div class="search-wrapper">
-        <FontAwesomeIcon icon="faSearch" />
+      <div class="search--wrapper">
+        <FontAwesomeIcon icon="search" className="fa-search" />
       </div>
     </div>
   );
