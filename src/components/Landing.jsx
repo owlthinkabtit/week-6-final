@@ -12,8 +12,8 @@ const Landing = () => {
             <div className="flex-col">
               <h1 className="sub--title">Start your cinematic adventure <span className="orange">now</span></h1>
               <h2 className="sub--title2">with the power of <span className="blue">MoviePix</span></h2>
-              <Search />
             </div>
+              <Search />
             <img src={movienight} className="movie-img" />
           </div>
         </section>
